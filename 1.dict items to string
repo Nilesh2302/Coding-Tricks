@@ -1,0 +1,5 @@
+a = {'a': 1,'b': 2}
+d = ''.join([f'{key}{value}' for key,value in a.items()])
+print(d)
+
+o/p : a1b2
